@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT'S OVER 9000!!!</title>
+    <style>
+        img {
+            height:600px;
+        }
+        body {
+                background-image: url("ITSOVER9000.gif");
+                cursor:none;
+                pointer-events: none;
+        }
+        #pointer {
+            width:150px;
+            height:150px;
+            background-color:black;
+            position:absolute;
+            border-radius:100%;
+            border:6px solid white;
+            animation:10s linear infinite woah;
+            box-shadow:0 0 10px 20px red;
+        }
+        @keyframes woah {
+            0%,100% {
+                background-color: black;
+                border:6px solid white;
+                box-shadow:0 0 10px 20px red;
+            }
+            50% {
+                background-color: rgb(21, 146, 168);
+                border:6px solid rgb(112, 13, 72);
+                box-shadow:0 0 100px 200px rgb(17, 221, 85);
+            }
+        }
+        HTML {
+            cursor:none;
+        }
+    </style>
+</head>
+<body>
+    <div id ="pointer"></div>
+    <script src ="ASSIGNMENT1.JS"></script>
+</body>
+</html>
