@@ -5,6 +5,7 @@ body {
     margin:0;
     background-color:antiquewhite;
     animation:10s linear infinite coloring;
+    cursor: url(https://static-00.iconduck.com/assets.00/cursor-icon-1024x1024-1h8hxibl.png), auto ;
 }
 @keyframes coloring {
     0%,100% {
